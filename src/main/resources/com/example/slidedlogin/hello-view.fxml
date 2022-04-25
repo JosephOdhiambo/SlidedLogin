@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="915.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.slidedlogin.HelloController">
+   <children>
+      <Pane fx:id="pane1" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane2" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane3" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane4" layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane layoutX="567.0" layoutY="48.0" maxHeight="419.0" maxWidth="319.0" prefHeight="419.0" prefWidth="319.0" style="-fx-background-color: #fff; -fx-background-radius: 50px;">
+         <effect>
+            <DropShadow color="#787878" />
+         </effect>
+         <children>
+            <Label layoutX="110.0" layoutY="41.0" text="YOUR LOGO" textFill="#9d9d9d">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <JFXTextField focusColor="#405aa800" labelFloat="true" layoutX="53.0" layoutY="118.0" prefHeight="36.0" prefWidth="213.0" promptText="USERNAME" style="-fx-border-color: #0a87ff; -fx-border-radius: 50px;" unFocusColor="#0a87ff00">
+               <padding>
+                  <Insets left="5.0" top="5.0" />
+               </padding>
+            </JFXTextField>
+            <JFXPasswordField focusColor="#415aa600" labelFloat="true" layoutX="53.0" layoutY="197.0" prefHeight="36.0" prefWidth="213.0" promptText="PASSWORD" style="-fx-border-color: #0a87ff; -fx-border-radius: 50px;" unFocusColor="#4d4d4d00">
+               <padding>
+                  <Insets left="5.0" top="5.0" />
+               </padding>
+            </JFXPasswordField>
+            <JFXButton layoutX="53.0" layoutY="275.0" prefHeight="36.0" prefWidth="213.0" style="-fx-background-color: #0a87ff; -fx-background-radius: 50px;" text="GET STARTED" textFill="WHITE" />
+            <JFXButton layoutX="53.0" layoutY="319.0" prefHeight="36.0" prefWidth="213.0" text="FORGOT YOUR PASSWORD?" textFill="#0ab88c" underline="true" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
